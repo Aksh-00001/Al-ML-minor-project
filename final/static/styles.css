@@ -1,0 +1,85 @@
+/* General Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-image: url(Frame\ 1.png) ;
+  background-size: contain;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Chat Container */
+.chat-container {
+  width: 450px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  text-align: center;
+}
+
+/* Header */
+.header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #080808;
+}
+
+.header img {
+  width: 100px;
+  height: auto;
+}
+
+/* Chat Box */
+#chat-box {
+  height: 300px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  padding: 10px;
+  background: #f9f9f9;
+  text-align: left;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #444;
+}
+
+/* User Input Section */
+.input-container {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* Send Button */
+button
+     {
+      background-color: rgba(2,137,255);
+      color: white;
+      width: 80px;
+      height: 38px;
+      border-radius: 20px;
+      cursor: pointer;
+      border: none;
+      font-weight: bold;
+      font-size: 14px;
+      transition: box-shadow 0.15s;
+     }
+button:hover
+     {
+      background-color: #020604a6;
+      color: rgb(242, 242, 245);
+      box-shadow: 10px 10px 10px rgba(0,0,0,0.8);
+     }
