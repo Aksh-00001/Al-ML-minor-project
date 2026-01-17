@@ -161,7 +161,7 @@ Contributions are welcome!
 For any queries related to the project:
 
 * **Developer:** Aksh Raj
-* **Email:** [akshrajsingh99310@gmail.com](mailto:akshrajsingh99310@gmail.com)
+* **Email:** [akshrajsingh99310@gmail.com](mailto:akshraj6202@gmail.com)
 
 ---
 
